@@ -1,0 +1,12 @@
+*.log
+node_modules/
+
+# FILEPATH: /c:/Users/tanapon/Desktop/cs371/scalable-23t1-p2/thumbnail_worker/.gitignore
+*.log
+node_modules/
+__pycache__/
+*.pyc
+.env
+thumbnail_output/
+raw_video/
+```
