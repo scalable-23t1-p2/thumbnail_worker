@@ -19,7 +19,7 @@ def clean_dir(filename: str) -> None:
         if i.startswith(filename):
             os.remove(f"raw_video/{i}")
             break
-    for i in os.listdir("chunk_output"):
+    for i in os.listdir("thumbnail_output"):
         if i.startswith(filename):
             os.remove(f"chunk_output/{i}")
 
